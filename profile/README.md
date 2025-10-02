@@ -1,6 +1,6 @@
 # Project Overview
 
-This project provides a secure, distributed, and end-to-end encrypted file storage and synchronization system. It is designed to give users full control over their data while enabling seamless multi-device sync and P2P transfers.
+This project provides a secure, distributed, and end-to-end encrypted file storage and synchronization system. It is designed to give users full control over their data while enabling seamless multi-device sync and P2P transfers. The project is primarily an educational endeavor and a way to explore and experiment with different technologies in a practical, fun way.
 
 ## System Components
 
@@ -105,8 +105,8 @@ Visitor → Web Client → Central Server → Storage Daemon
 
 ## Technical Benefits
 
-- **Polyglot Architecture:** CLI in C, Client and Storage Daemons in Go, Central Server in Elixir, Web Client in SvelteKit
+- **Polyglot Architecture:** CLI in C, Client and Storage Daemons in Go, Central Server in Elixir, Web Client in SvelteKit. This multi-language approach is part of the educational and experimental nature of the project, allowing exploration of different technologies and paradigms.
 - **Scalability:** Elixir server handles massive concurrency, storage daemons are distributed, P2P reduces server bandwidth requirements
 - **Security:** fully auditable, end-to-end encryption with zero-knowledge architecture, client controls all encryption keys
 
-This project provides a fully transparent and secure cloud storage ecosystem, empowering users with control over their data while enabling modern sync and sharing features.
+This project is a hands-on learning experience and a playground for experimenting with modern cloud technologies while building a functional, secure, and distributed file storage system.
